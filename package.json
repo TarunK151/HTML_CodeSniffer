@@ -8,8 +8,8 @@
     "htmlcs"
   ],
   "scripts": {
-    "prepack": "npm install grunt && npm install && grunt build",
-    "build": "npm install grunt && npm install && grunt build",
+    "prepack": "npm install grunt && grunt build",
+    "build": "grunt build",
     "test": "grunt eslint"
   },
   "engines": {
