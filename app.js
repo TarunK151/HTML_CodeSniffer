@@ -4,7 +4,7 @@ const puppeteer = require('puppeteer-core');
 const executablePath = 'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe';
 
 // Replace with the url you wish to test.
-const url = 'https://ee.co.uk';
+const url = 'https://www.bt.com/broadband';
 
 (async () => {
   const browser = await puppeteer.launch({

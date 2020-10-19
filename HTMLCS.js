@@ -109,10 +109,17 @@ _global.HTMLCS = new function()
             return false;
         }
 
+        if(standard == 'WCAG2BT')
+        {
+            this.lang = 'enbt'
+        }
+
         _includeStandard(standard, function() {
             _standard = standard;
+            
             callback.call(this);
         }, failCallback);
+
     };
 
     /**
@@ -357,7 +364,7 @@ _global.HTMLCS = new function()
         if (standard.indexOf('http') !== 0) {
             standard = _getStandardPath(standard);
         }//end id
-
+        
         // See if the ruleset object is already included (eg. if minified).
         var parts   = standard.split('/');
         var ruleSet = _global['HTMLCS_' + parts[(parts.length - 2)]];
