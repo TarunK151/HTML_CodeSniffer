@@ -8,7 +8,6 @@
     "htmlcs"
   ],
   "scripts": {
-    "prepack": "npm install grunt --save-dev && npm install && grunt build",
     "build": "grunt build",
     "test": "grunt eslint"
   },
