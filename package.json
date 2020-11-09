@@ -8,7 +8,7 @@
     "htmlcs"
   ],
   "scripts": {
-    "prepare": "npm install grunt grunt-cli && npm install && grunt build",
+    "prepack": "npm install grunt grunt-cli && npm install && grunt build",
     "build": "grunt build",
     "test": "grunt eslint"
   },
