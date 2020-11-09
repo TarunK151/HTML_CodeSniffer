@@ -9,7 +9,6 @@
   ],
   "scripts": {
     "postpack": "npm install grunt && npm install && grunt build",
-    "build": "npm install && grunt build",
     "test": "grunt eslint"
   },
   "engines": {
