@@ -8,7 +8,7 @@
     "htmlcs"
   ],
   "scripts": {
-    "postpack": "npm install grunt && npm install && grunt build",
+    "postpack": "npm install grunt && npm install --save-dev load-grunt-tasks && grunt build",
     "build": "grunt build",
     "test": "grunt eslint"
   },
