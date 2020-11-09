@@ -8,8 +8,7 @@
     "htmlcs"
   ],
   "scripts": {
-    "prepack": "npm install grunt --save-dev && npm install",
-    "postinstall": "echo postinstall time; ./node_modules/grunt-cli/bin/grunt build",
+    "prepack": "npm install grunt --save-dev && npm install && grunt build",
     "build": "grunt build",
     "test": "grunt eslint"
   },
