@@ -2,8 +2,9 @@ package-lock.json
 
 # Build files #
 ###############
-build/
+
 node_modules/
+package-lock.json
 .vscode/
 Auditor/Auditor_with_beacon.js
 *.tgz
